@@ -1,0 +1,12 @@
+{
+  "name": "cli-record-action",
+  "version": "1.0.0",
+  "description": "Github Action to record a terminal app.",
+  "main": "index.js",
+  "author": "Yisroel Newmark",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "terminalizer": "^0.7.1"
+  }
+}
