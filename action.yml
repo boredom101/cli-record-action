@@ -1,0 +1,12 @@
+name: 'CLI Record'
+description: 'Record a CLI App and return a GIF'
+inputs:
+  command:
+    description: 'Command to run'
+    required: true
+outputs:
+  path:
+    description: 'The path to the GIF'
+runs:
+  using: 'node12'
+  main: 'index.js'
