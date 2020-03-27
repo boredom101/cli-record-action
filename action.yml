@@ -11,5 +11,5 @@ outputs:
   path:
     description: 'The path to the GIF'
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: 'docker'
+  image: 'Dockerfile'
