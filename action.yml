@@ -4,6 +4,9 @@ inputs:
   command:
     description: 'Command to run'
     required: true
+  stdin:
+    description: 'file containing input for the command'
+    required: false
 outputs:
   path:
     description: 'The path to the GIF'
